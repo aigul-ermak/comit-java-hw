@@ -2,7 +2,7 @@ package org.comit.course._04_practice;
 
 public class hw4_findIndexArray {
 	public static void main(String[] args) {
-		int[] numbers = { 1, 2, 3, 4, 5, 6, 7 }; // Sample array
+		int[] numbers = { 7, 3, 6, 2, 8, 1, 5, 4, 9, 10 }; // Sample array
 		int target = 4; // Value to search for
 		int index = -1; // Default index if value is not found
 
