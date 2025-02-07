@@ -32,5 +32,18 @@ public class ForPrint {
 	        // Displaying area and perimeter
 	        System.out.println("Area: " + rect.calculateArea());
 	        System.out.println("Perimeter: " + rect.calculatePerimeter());
+	        
+	        Circle circle = new Circle(5.0);
+	        
+	        // Displaying initial area and circumference
+	        System.out.println("Area: " + circle.calculateArea());
+	        System.out.println("Circumference: " + circle.calculateCircumference());
+	        
+	        // Modifying radius
+	        circle.setRadius(7.0);
+	        
+	        // Displaying updated area and circumference
+	        System.out.println("Updated Area: " + circle.calculateArea());
+	        System.out.println("Updated Circumference: " + circle.calculateCircumference());
 	}
 }
