@@ -26,5 +26,11 @@ public class ForPrint {
 	        System.out.println("Updated Dog Details:");
 	        dog1.displayDogInfo();
 	        dog2.displayDogInfo();
+	        
+	        Rectangle rect = new Rectangle(5.0, 7.0);
+
+	        // Displaying area and perimeter
+	        System.out.println("Area: " + rect.calculateArea());
+	        System.out.println("Perimeter: " + rect.calculatePerimeter());
 	}
 }
