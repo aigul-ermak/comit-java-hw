@@ -45,5 +45,17 @@ public class ForPrint {
 	        // Displaying updated area and circumference
 	        System.out.println("Updated Area: " + circle.calculateArea());
 	        System.out.println("Updated Circumference: " + circle.calculateCircumference());
+	        
+	        Book[] books = new Book[3];
+
+	        // Adding three books to the array
+	        books[0] = new Book("The Catcher in the Rye", "J.D. Salinger", "978-0316769488");
+	        books[1] = new Book("To Kill a Mockingbird", "Harper Lee", "978-0061120084");
+	        books[2] = new Book("1984", "George Orwell", "978-0451524935");
+
+	        // Looping through the array to display book details
+	        for (Book book : books) {
+	            book.display();
+	        }
 	}
 }
