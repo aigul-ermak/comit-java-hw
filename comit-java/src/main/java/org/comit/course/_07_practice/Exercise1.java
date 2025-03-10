@@ -1,4 +1,4 @@
-package _07_practice;
+package org.comit.course._07_practice;
 
 class Helper {
 
